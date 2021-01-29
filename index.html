@@ -1,0 +1,45 @@
+<!DOCTYPE html><html><head>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="p5.js"></script>
+    <script src="p5.dom.min.js"></script>
+    <script src="p5.sound.min.js"></script>
+    <script src="./p5.play.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+    <meta name="keywords" content="New Education Policy, Old Education policy"
+  </head>
+  <body bgcolor="#A6B6D0">
+
+    <a href ="https://www.education.gov.in/sites/upload_files/mhrd/files/NEP_Final_English_0.pdf" target=_blank><img src="Indian flag.png" alt="New education policy" height=50 width=60 align="right"></a>
+    
+      <script src="sketch.js"></script>
+
+   <button id="b2" onclick="addCode()">Right</button> 
+      <script> 
+          function addCode() { 
+              child.x = child.x+10 
+          } 
+      </script>
+  <button id="b3" onclick="addCode1()">Left</button> 
+      <script> 
+    function addCode1() { 
+        child.x = child.x-10 
+    } 
+      </script> 
+
+<button id="b4" onclick="addCode2()">Up</button> 
+      <script> 
+function addCode2() { 
+child.y = child.y-10 
+} 
+      </script>
+
+<button id="b5" onclick="addCode3()">Down</button> 
+      <script> 
+function addCode3() { 
+child.y = child.y+10 
+} 
+      </script>
+</body></html>
+
